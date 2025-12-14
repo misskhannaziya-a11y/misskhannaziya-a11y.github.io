@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khan Naziya Hassan | Romance Fantasy Author</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #f9a8d4;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background: #ec4899;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Khan Naziya Hassan</h1>
+  <p>Romance Fantasy Author · Storyteller · Content Writer</p>
+  <p>Crafting emotions, love & fantasy into unforgettable stories</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a self-published romance fantasy author with books live across
+    Amazon, Kobo, Smashwords, Barnes & Noble, Vivlio, and more.
+    My stories explore love, friendship, emotions, and fantasy-driven worlds.
+  </p>
+</section>
+
+<section>
+  <h2>Books</h2>
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x420?text=Entwined+Heart" />
+      <h3>Entwined Heart: Tangled Love & Friendship</h3>
+      <a class="button" href="https://www.kobo.com/in/en/ebook/entwined-heart-tangled-love-friendships" target="_blank">Read on Kobo</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x420?text=Entwined+Heart+Untangled" />
+      <h3>Entwined Heart: Untangled</h3>
+      <a class="button" href="https://www.smashwords.com/books/view/1648510" target="_blank">Read on Smashwords</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Available On</h2>
+  <p>
+    Amazon · Kobo · Barnes & Noble · Smashwords · Vivlio · Fable
+  </p>
+</section>
+
+<footer>
+  © 2025 Khan Naziya Hassan · Romance Fantasy Author
+</footer>
+
+</body>
+</html>
